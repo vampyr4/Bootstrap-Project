@@ -1,0 +1,172 @@
+body{
+    background-color: rgb(31, 20, 61);
+}
+
+.search-bar input{
+    background-color:rgb(69, 59, 94) ;
+    border-radius: 10px;
+    border:none;
+    width: 300px;
+    transition: all 0.1s ease-in-out;
+}
+
+.search-bar input[type=text]:focus {
+    width: 800px;
+    border: none;
+    transition: all 0.1s ease-in-out;
+  }
+
+.btn-i:hover{
+    color: white;
+    background-color: black;
+    border-radius: 20px;;
+  }
+
+.btn-i{
+        color:white;
+    }
+
+@media (max-width: 768px) {
+    
+    .search-bar input[type=text] {
+        width: 300px;
+      }
+      .search-bar input[type=text]:focus{
+        width: 300px;
+      }
+
+}
+
+.carousel-inner img{
+    
+  
+    height:600px;
+    width: 1150px ;
+}
+
+.neon-b {
+  animation: neonAnim 2s alternate-reverse infinite;
+  color: #88049E;
+  font-family: Cursive;
+  font-size: 25px;
+}
+@keyframes neonAnim {
+from {
+  text-shadow:
+    0 0 10px rgba(136, 4, 158, .7),
+    0 0 40px rgba(136, 4, 158, .7),
+    0 0 100px rgba(136, 4, 158, .7);
+}
+to {
+  text-shadow:
+    0 0 5px rgba(136, 4, 158, .7),
+    0 0 20px rgba(136, 4, 158, .7),
+    0 0 60px rgba(136, 4, 158, .7);
+}
+}
+
+.neon-b:hover{
+  color:white;
+}
+
+
+.neon {
+    animation: neonAnim 2s alternate-reverse infinite;
+    color: #88049E;
+    font-family: Cursive;
+    font-size: 44px;
+}
+@keyframes neonAnim {
+from {
+    text-shadow:
+      0 0 10px rgba(136, 4, 158, .7),
+      0 0 40px rgba(136, 4, 158, .7),
+      0 0 100px rgba(136, 4, 158, .7);
+  }
+  to {
+    text-shadow:
+      0 0 5px rgba(136, 4, 158, .7),
+      0 0 20px rgba(136, 4, 158, .7),
+      0 0 60px rgba(136, 4, 158, .7);
+  }
+}
+.carousel-inner img{
+    margin:20px auto;
+}
+ 
+
+.card{
+  color:white;
+  border: none;
+  background-color: rgb(31, 20, 61);
+  width: 220px;
+    
+}
+
+.card img{
+  height: 250px;
+}
+
+.card:hover{
+  box-shadow: 0 4px 8px 0 rgba(200, 200, 200, 0.2), 0 6px 20px 0 rgba(204, 204, 204, 0.19);
+}
+
+.card a:hover{
+  background-color: blue;
+}
+
+.img-why-us{
+  width: 1500px;
+  height: 500px;
+  margin:140px 0px;
+}
+
+.footer{
+  margin:0px;
+  padding: 0px;
+}
+
+
+.img-container{
+  background-image:url("Batman.png" );
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+.contact{
+  margin: 250px auto 0 auto ;
+}
+
+
+.accs-btns{
+  background-color:rgb(17, 10, 37,0.5);
+  height: 50px;
+  width: 200px;
+  margin:20px 0 20px 20px;
+}
+
+.accs-btns:hover{
+  background-color: rgb(17, 10, 37);
+  color:white;
+}
+
+.accordion-item{
+  background-color: rgb(31, 20, 61);
+  border:none;
+  
+}
+
+
+.navbar-toggler-icon{
+  color: white;
+}
+
+.navbar-toggler:hover{
+  background-color: white;
+}
+
+
+.why-bg {
+  background-image:url("why-bg.jpg" );
+  background-size:cover;
+  background-repeat: no-repeat;
+}
